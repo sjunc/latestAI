@@ -501,6 +501,7 @@ csv는 한줄이 하나의 문서
 이렇게 형식마다 인식하는 게 다름  
 Text Splitter: 긴 문서 처리의 핵심  
 
+tokenizer -> embedding -> 임베딩 모델별로 데이터마다 결과가 다르기 때문에 적당한 모델을 선택 -> 벡터 저장소 저장 (Faiss, Chroma, Elasticsearch, Pinecone) -> 검색도구  
 
 
 
