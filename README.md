@@ -489,7 +489,17 @@ LLM이 스스로 추론하고, 행동을 계획하며, 도구를 사용하여 �
 n8n 워크플로우 템플릿[https://n8n.io/workflows/]  
 
 
+## RAG
 
+langchain  
+다양한 소스들 지원 웹페이지, pdf, csv, 데이터베이스  
+데이터 변환 및 정제 기능  
+외부 모듈 연동 langchain_community에 위치함  
+
+directoryLoader를 통해 다양한 형식의 파일을 폴더로 가지고 올 수 있음  
+csv는 한줄이 하나의 문서  
+이렇게 형식마다 인식하는 게 다름  
+Text Splitter: 긴 문서 처리의 핵심  
 
 
 
