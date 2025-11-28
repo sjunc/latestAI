@@ -503,6 +503,10 @@ Text Splitter: 긴 문서 처리의 핵심
 
 tokenizer -> embedding -> 임베딩 모델별로 데이터마다 결과가 다르기 때문에 적당한 모델을 선택 -> 벡터 저장소 저장 (Faiss, Chroma, Elasticsearch, Pinecone) -> 검색도구  
 
+## 12주차 RAG - Retriever
+검색기(Retriever) 단계는 RAG(Retrieval-Augmented Generation) 시스템의 다섯 번째 단계, 저장된 벡터 DB에서 사용자의 질문과 관련된 문서를 검색하는 과정  
+
+코사인 유사성 각도의미 시험 
 
 
 ----
